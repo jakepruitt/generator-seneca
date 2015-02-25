@@ -46,8 +46,13 @@ module.exports = yeoman.generators.Base.extend({
         this.templatePath('bowerrc'),
         this.destinationPath('.bowerrc')
       );
+      this.fs.copy(
+        this.templatePath('server.js'),
+        this.destinationPath('server.js')
+      );
       this.directory('client');
       this.directory('server');
+      this.directory('test');
     }
   },
 

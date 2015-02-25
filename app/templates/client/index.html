@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html ng-app="checklist" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><head>
+  <title>Checklist App</title>
+  <!-- Bootstrap minified CSS via CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <!-- Our CSS -->
+  <link rel="stylesheet" href="css/task.css">
+  <link rel="stylesheet" href="css/checklist.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <section class="container-fluid full-height" ui-view></section>
+  <!-- Latest compiled and minified AngularJS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
+  <!-- Latest angular-resource via google apis -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular-resource.js"></script>
+  
+  <!-- Third party JavaScript via bower -->
+  <!-- Angular UI Router -->
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <!-- Angular UI Bootstrap directives -->
+  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+  <!-- Seneca init function from seneca-web for seneca-ng -->
+  <script src="http://localhost:4040/seneca/init.js"></script>
+  <!-- Our JavaScript -->
+  <script src="js/app.js"></script>
+  <script src="js/services/UserService.js"></script>
+  <script src="js/services/AuthService.js"></script>
+  <script src="js/services/ProjectService.js"></script>
+  <script src="js/services/ChecklistService.js"></script>
+  <script src="js/services/EntryService.js"></script>
+  <script src="js/controllers/LoginController.js"></script>
+  <script src="js/controllers/HomeController.js"></script>
+  <script src="js/controllers/RegisterController.js"></script>
+  <script src="js/controllers/ProjectController.js"></script>
+  <script src="js/controllers/ChecklistController.js"></script>
+  <script src="js/app-config.js"></script>
+</body>
+</html>
