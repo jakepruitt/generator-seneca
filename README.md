@@ -35,9 +35,19 @@ Finally, initiate the generator:
 yo seneca
 ```
 
-### Getting To Know Yeoman
+### Using the project
 
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
+Once installed, you can start the server with the Seneca process and the angular front-end by running:
+
+```bash
+npm start
+```
+
+Once that is running, you can run the tests in `test/functional` with protractor by running in a separate tab:
+
+```bash
+npm test
+```
 
 If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
 
