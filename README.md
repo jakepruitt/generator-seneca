@@ -51,6 +51,9 @@ npm test
 
 If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
 
+## Help
+
+If you need any help or want to learn more about Seneca and the choices of this starter template, email me at jrpruit1@asu.edu, or tweet at me @jakepruitt :)
 
 ## License
 
