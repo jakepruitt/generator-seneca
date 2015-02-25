@@ -5,8 +5,8 @@ describe('main page functionality', function() {
     expect($('h1').getText()).toMatch(/Hello/i);
   });
 
-  it('should have an indicator that the backend is properly working', function(done) {
+  it('should have an indicator that the backend is properly working', function() {
     browser.get('/');
-    expect($('p').getText()).toMatch(/working/i);
+    expect($('h3').getText()).toMatch(/Working/i);
   });
 });
