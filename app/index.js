@@ -14,7 +14,7 @@ module.exports = yeoman.generators.Base.extend({
 
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the' + chalk.red('Seneca') + ' generator!'
+      'Welcome to the ' + chalk.red('Seneca') + ' generator!'
     ));
 
     var prompts = [{
@@ -45,6 +45,10 @@ module.exports = yeoman.generators.Base.extend({
       this.fs.copy(
         this.templatePath('bowerrc'),
         this.destinationPath('.bowerrc')
+      );
+      this.fs.copy(
+        this.templatePath('gitignore'),
+        this.destinationPath('.gitignore')
       );
       this.fs.copy(
         this.templatePath('server.js'),

@@ -16,19 +16,3 @@
   max-width: 900px;
   padding-right: 1.5rem;
 }
-
-.login {
-  padding-top: 5%;
-}
-
-.login-panel {
-  max-width: 245px;
-}
-
-.btn-new {
-  margin-top: 15px;
-}
-
-.site-header {
-  cursor: pointer;
-}
